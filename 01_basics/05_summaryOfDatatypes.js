@@ -43,3 +43,35 @@ let myObj = {  //object
  const myfunction = function(){
     console.log("Hello World");
  }
+
+
+
+ //******************************* MEMORY USE **************************** */
+
+//  There are two types of memory space
+
+//  1.Stack => All the primitive datatytpes are stored in stack.
+//  2.Heap => All the Non-primitive datatypes are stored in heap.
+
+// it is a primitive datatype thats why here data are copy 
+
+let user = "AnubhavRaj"
+let user2 = user;
+user2 = "Supriya"
+console.log(user);
+console.log(user2);
+
+let userone = {
+    email:"Anubhav@gmail.com",
+    age: 21
+}
+
+let usertwo = userone;
+usertwo.email = "Supriya@gmail.com"
+
+console.log(userone.email)
+console.log(usertwo.email)
+
+
+
+ 
