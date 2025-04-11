@@ -2,9 +2,9 @@ const Marvel_heros = ["Ironman","Spiderman","Hulk"]
 const Dc_heros = ["Batman","Flash","superman"]
 
 // if we push one array to another array then it puched array into the array
-// Marvel_heros.push(Dc_heros); 
-// console.log(Marvel_heros);
-// console.log(Marvel_heros[3][1]); // by this we acccse the element of array in array
+Marvel_heros.push(Dc_heros); 
+console.log(Marvel_heros);
+console.log(Marvel_heros[3][1]); // by this we acccse the element of array in array
 
 
 
