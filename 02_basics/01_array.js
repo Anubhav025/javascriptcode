@@ -28,6 +28,4 @@ const myn1 = Myarr.splice(1,3)
 console.log("C",Myarr); // make the new array and change the original array 
 console.log(myn1) 
 
-
-console.log();
 console.log(Myarr)
