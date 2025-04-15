@@ -83,3 +83,16 @@ console.log(day[1]);
 //it helps us to know is there this key or not in a specific object
 console.log(bumbleuser.hasOwnProperty("name"));
 
+// Object Destructing
+
+const cousre = {
+    name: "Anubhav Raj",
+    coursename: "JS-in Hindi",
+    price: 1000
+}
+// here we destructing the object 
+const {coursename: subject} = cousre
+
+// console.log(coursename);
+console.log(subject);
+
