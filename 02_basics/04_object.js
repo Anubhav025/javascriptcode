@@ -1,7 +1,7 @@
      // object Skelton
 
 // in skelton object we use constructor     
-//both line 6 and 7 are the same way torepresent a constuctor object
+//both line 6 and 7 are the same way to represent a constuctor object
 
 // const bumbleuser = new Object(); 
 const bumbleuser = {}; 
